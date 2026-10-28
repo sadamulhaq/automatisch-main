@@ -1,0 +1,175 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Form model > jsonSchema should have correct validations 1`] = `
+{
+  "properties": {
+    "createdAt": {
+      "type": "string",
+    },
+    "description": {
+      "type": "string",
+    },
+    "displayName": {
+      "type": "string",
+    },
+    "fields": {
+      "items": {
+        "properties": {
+          "fields": {
+            "items": {
+              "properties": {
+                "key": {
+                  "minLength": 1,
+                  "type": "string",
+                },
+                "name": {
+                  "minLength": 1,
+                  "type": "string",
+                },
+                "options": {
+                  "type": "array",
+                },
+                "readonly": {
+                  "type": "boolean",
+                },
+                "required": {
+                  "type": "boolean",
+                },
+                "type": {
+                  "enum": [
+                    "checkbox",
+                    "date",
+                    "datetime",
+                    "dropdown",
+                    "multiline",
+                    "string",
+                    "time",
+                  ],
+                  "type": "string",
+                },
+                "validationFormat": {
+                  "enum": [
+                    null,
+                    "",
+                    "alphanumeric",
+                    "custom",
+                    "email",
+                    "number",
+                    "tel",
+                    "url",
+                  ],
+                  "type": [
+                    "string",
+                    "null",
+                  ],
+                },
+                "validationHelperText": {
+                  "type": "string",
+                },
+                "validationPattern": {
+                  "type": "string",
+                },
+              },
+              "required": [
+                "key",
+                "name",
+                "type",
+              ],
+              "type": "object",
+            },
+            "type": "array",
+          },
+          "key": {
+            "minLength": 1,
+            "type": "string",
+          },
+          "maxItems": {
+            "minimum": 1,
+            "type": "integer",
+          },
+          "minItems": {
+            "minimum": 0,
+            "type": "integer",
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string",
+          },
+          "options": {
+            "type": "array",
+          },
+          "readonly": {
+            "type": "boolean",
+          },
+          "required": {
+            "type": "boolean",
+          },
+          "type": {
+            "enum": [
+              "array",
+              "checkbox",
+              "date",
+              "datetime",
+              "dropdown",
+              "multiline",
+              "string",
+              "time",
+            ],
+            "type": "string",
+          },
+          "validationFormat": {
+            "enum": [
+              null,
+              "",
+              "alphanumeric",
+              "custom",
+              "email",
+              "number",
+              "tel",
+              "url",
+            ],
+            "type": [
+              "string",
+              "null",
+            ],
+          },
+          "validationHelperText": {
+            "type": "string",
+          },
+          "validationPattern": {
+            "type": "string",
+          },
+        },
+        "required": [
+          "key",
+          "name",
+          "type",
+        ],
+        "type": "object",
+      },
+      "type": "array",
+    },
+    "id": {
+      "format": "uuid",
+      "type": "string",
+    },
+    "name": {
+      "minLength": 1,
+      "type": "string",
+    },
+    "responseMessage": {
+      "type": "string",
+    },
+    "submitButtonText": {
+      "type": "string",
+    },
+    "updatedAt": {
+      "type": "string",
+    },
+  },
+  "required": [
+    "name",
+  ],
+  "type": "object",
+}
+`;

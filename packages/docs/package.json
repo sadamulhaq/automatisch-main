@@ -1,0 +1,33 @@
+{
+  "name": "@automatisch/docs",
+  "license": "See LICENSE file",
+  "description": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev pages --port 3002",
+    "build": "vitepress build pages",
+    "serve": "vitepress serve pages"
+  },
+  "devDependencies": {
+    "sitemap": "^7.1.1",
+    "vitepress": "^1.0.0-alpha.21",
+    "vue": "^3.2.37"
+  },
+  "contributors": [
+    {
+      "name": "automatisch contributors",
+      "url": "https://github.com/automatisch/automatisch/graphs/contributors"
+    }
+  ],
+  "homepage": "https://github.com/automatisch/automatisch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automatisch/automatisch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/automatisch/automatisch/issues"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {}
+}
